@@ -1,0 +1,113 @@
+# Dependencies
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Build outputs
+build/
+dist/
+frontend/build/
+backend/dist/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database files
+*.sql
+*.dump
+backup/
+backups/
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Temporary folders
+tmp/
+temp/
+
+# Cache
+.npm
+.cache
+.parcel-cache
+
+# Optional eslint cache
+.eslintcache
+
+# Production builds
+frontend/build/
+backend/dist/
+
+# Package lock files (optional - uncomment if needed)
+# package-lock.json
+# yarn.lock
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# Local development files
+.local/
+local/
+
+# Test files
+test-results/
+coverage/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Security
+secrets/
+private/
+confidential/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
